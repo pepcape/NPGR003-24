@@ -267,7 +267,7 @@ public class Texture : IDisposable
 
   public void Dispose()
   {
-    // In order to dispose we need to delete the OpenGL handle for the texure.
+    // In order to dispose we need to delete the OpenGL handle for the texture.
     _gl?.DeleteTexture(_handle);
     _handle = uint.MaxValue;
   }
