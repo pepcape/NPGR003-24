@@ -4,9 +4,6 @@ game [Ant Attack](https://en.wikipedia.org/wiki/Ant_Attack) by Sandy White, Quic
 
 ![Screenshot1](aa01.png) ![Screenshot2](aa02.png) ![Screenshot3](aa03.png)
 
-(If you are interested in ancient game development technologies,
-go to [this page](http://sandywhite.co.uk/fun/ants/))
-
 The entire 3D scene ("the city") must be rendered interactively using the
 [OpenGL library](https://www.opengl.org/) bound to the .NET through the
 [Silk.NET library](https://github.com/dotnet/Silk.NET).
@@ -23,7 +20,7 @@ projection is required). You need to keep the 3D scene made of **"axis-aligned" 
   the original game)
 * You can allow the **elevation angle** of the view to be set.
 * Use **keyboard (WASD or arrows)** for moving your character through the city.
-  Keep restricted directions of movement (north, west, south, east). 
+  Keep restricted directions of movement (north, west, south, east).
 * Allow your character to **jump** onto obstacles **one unit high** (no more).
   When jumping down, you can choose to either allow a jump from any height
   or penalize falls from higher heights.
@@ -63,11 +60,11 @@ Please place your solution in a separate [solutions](solutions/README.md)
 directory in the repository. You'll find short instructions there.
 
 # Launch date
-**Monday 18 December 2023**
+**Thursday 19 December 2024**
 (Don't work on the solution before this date)
 
 # Deadline
-See the shared [point table](https://docs.google.com/spreadsheets/d/1QLukOcSRPa5exOYW1eUfQWY2WoMjo1menbjQIU7Gvs4/edit?usp=sharing).
+See the shared [point table](https://docs.google.com/spreadsheets/d/11OnE4a-b27eOJ00pfbsYOk7uSdr0hzKrELs_vFG3a_Q/edit?usp=sharing).
 
 # Credit points
 **Basic solution: 10 points**

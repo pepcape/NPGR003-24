@@ -30,7 +30,7 @@ The entire 3D scene (fireworks) must be rendered interactively using the
 * **Discrete time simulation** approximates an actual continuous spacetime by using a short
   period of time (**delta-t**, `dT` in seconds) to simplify the simulation
   - `dT` could be the time between two successive rendered frames
-    (i.e. 1/60 of the second or so) 
+    (i.e. 1/60 of the second or so)
   - We assume that during the simulation step (`dT`) the values of some
     quantities **remain constant** (although this is not actually true). Velocity
     vector (~drag vector)...
@@ -95,7 +95,7 @@ OpenGL ([Silk.NET](https://www.nuget.org/packages/Silk.NET/)) project with
     could be changed later using the keys `Up` and `Down`)
   - `-t` - optional texture file (default is `:check:` = checkerboard)
 - console window is kept for simple messaging (`Util.Ut.Message()`)
-- [Trackball](../Silk3D/support/Trackball.cs) support
+- [Trackball](../Silk3D/shared/Trackball.cs) support
 - `class Util.FPS` is used for measuring FPS (Frames Per Seconds) and PPS
   (Primitive Per Second)
   - try switching "Vertical synchronization" (VSync) on and off (key `V`)!
@@ -104,7 +104,7 @@ OpenGL ([Silk.NET](https://www.nuget.org/packages/Silk.NET/)) project with
   - `MouseDown()`, `MouseUp()`, `MouseDoubleClick()`, `MouseMove()`, `MouseScroll()`
     for the mouse
 - simulation and rendering of simple **particle system**
-  - `Particle` is a **point** in 3D (position, color, age, size - 
+  - `Particle` is a **point** in 3D (position, color, age, size -
     you'll need more attributes for a fireworks!)
   - `Simulation` is the whole particle system, responsible mainly for particle
     management (creating, destroying)
@@ -199,11 +199,11 @@ Please place your solution in a separate [solutions](solutions/README.md)
 directory in the repository. You'll find short instructions there.
 
 # Launch date
-**Monday 11 December 2023**
+**Thursday 12 December 2024**
 (Don't work on the solution before this date)
 
 # Deadline
-See the shared [point table](https://docs.google.com/spreadsheets/d/1QLukOcSRPa5exOYW1eUfQWY2WoMjo1menbjQIU7Gvs4/edit?usp=sharing).
+See the shared [point table](https://docs.google.com/spreadsheets/d/11OnE4a-b27eOJ00pfbsYOk7uSdr0hzKrELs_vFG3a_Q/edit?usp=sharing).
 
 # Credit points
 **Basic solution: 10 points**
